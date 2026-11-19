@@ -53,6 +53,8 @@ li.key .n{background:var(--accent);color:#fff}
 .info ul{margin:0;padding-left:18px}
 .sub2{font-size:1.05rem;margin:26px 0 10px}
 a{color:var(--accent)}
+.topics{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0 0}
+.topics a{flex:1;min-width:max-content;text-align:center;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px;text-decoration:none;font-weight:600;font-size:.92rem}
 footer{margin-top:28px;color:var(--muted);font-size:.8rem}
 </style>
 </head>
@@ -70,6 +72,12 @@ footer{margin-top:28px;color:var(--muted);font-size:.8rem}
   <button class="cta" data-copy>번호 복사하기</button>
   <div class="ok" id="ok"></div>
 </section>
+
+<nav class="topics">
+  <a href="sponsor-number.html">후원자 번호란?</a>
+  <a href="abo-member.html">ABO와 Member 차이</a>
+  <a href="faq.html">자주 묻는 질문</a>
+</nav>
 
 <div class="tabs" role="tablist">
   <button role="tab" aria-selected="true" data-tab="abo">ABO 가입</button>
